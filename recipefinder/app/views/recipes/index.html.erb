@@ -1,2 +1,11 @@
-<h1>Recipes#index</h1>
-<p>Find me in app/views/recipes/index.html.erb</p>
+<h1>Searching for - <%= @search_term %></h1>
+<%= debug @recipes %>
+<p><%= @recipes %></p>
+
+<table border="1">
+  <tr>
+    <th>Image</th>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+</table>
